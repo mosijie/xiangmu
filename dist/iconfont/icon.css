@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'miaicon';
+    src: url(miaicon/miaicon.eot);
+    src: url(miaicon/miaicon.eot#iefix) format("embedded-opentype"),
+     url(miaicon/miaicon.woff2) format("woff2"),
+      url(miaicon/miaicon.woff) format("woff"),
+       url(miaicon/miaicon.ttf) format("truetype"),
+        url(miaicon/miaicon.svg#miaicon) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+.mia-icon {
+    font-family: 'miaicon';
+    font-style: normal;
+    font-weight: 400;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
